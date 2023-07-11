@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  border: none;
+}
+html {
+  font-size: 8px;
+}
+.pink {
+  color: #e55473;
+}
+p {
+  opacity: 60%;
+  line-height: 3rem;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
+h1 {
+  font-size: 7.8rem;
+}
+h2 {
+  font-size: 4rem;
+  padding-top: 5rem;
+  font-weight: 900;
+}
+.section-head {
+  width: 62rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.spb {
+  justify-content: space-between;
+}
+.aic {
+  align-items: center;
+}
+.btn-pink {
+  background-color: #e55473;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1.5rem 3rem;
+}
+.bg-lt-pink {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.full-container {
+  width: 100%;
+}
+.fix-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+a {
+  font-size: 2rem;
+}
+
+/* hero section */
+.hero-section--img img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.hero-section__single {
+  flex: 1;
+  height: 65rem;
+}
+.hero-section--texts {
+  padding-top: 7rem;
+}
+/* end of hero section */
+
+/* feture section */
+.feature-section__body {
+  align-items: baseline;
+  padding-top: 5rem;
+}
+.feature-section__body__item {
+  flex: 1;
+}
+.feature-section__body__item__img {
+  height: 45rem;
+  padding: 5rem;
+  padding-bottom: 0;
+  border-radius: 20rem 20rem 0 0;
+}
+.feature-section__body__item:first-of-type .feature-section__body__item__img {
+  background-color: rgba(167, 33, 98, 0.1);
+}
+.feature-section__body__item:nth-of-type(2) .feature-section__body__item__img {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.feature-section__body__item:last-of-type .feature-section__body__item__img {
+  background-color: rgba(71, 125, 17, 0.1);
+}
+.feature-section__body__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.feature-section__body__item__link {
+  text-align: center;
+  margin-top: 3rem;
+}
+.feature-section__body__item__link a {
+  text-decoration: underline;
+}
+/* end of feture section */
+
+/* hot deal section */
+.hot-deal {
+  background-color: rgba(229, 84, 115, 0.1);
+  margin-top: 10rem;
+}
+.hot-deal-section__texts {
+  text-align: center;
+}
+.hot-deal-section__texts p {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* end of hot deal section */
+
+/* instagram section */
+.instagram-section__body {
+  margin-top: 5rem;
+}
+.instagram-section__body__item img {
+  width: 100%;
+}
+/* end of instagram section */
+
+/* subscribe section */
+.subscribe-section {
+  background: url("./imgs/sub-bg.png") no-repeat;
+  background-size: cover;
+  margin-top: 7rem;
+  padding-bottom: 10rem;
+}
+
+.subscribe-section__body form {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+.subscribe-section__body form #mail {
+  width: calc(100% - 140px);
+  padding: 1.7rem;
+  border-radius: 5px;
+}
+
+.subscribe-section__body form #mail::placeholder {
+  font-size: 2rem;
+}
+.subscribe-section__body form .btn {
+  margin-left: 15px;
+}
+
+/* end of subscribe section */
+
+/* contact section */
+.contact {
+  background-color: rgba(229, 84, 115, 0.1);
+  margin: 10rem 0;
+}
+.contact-section__body img {
+  width: 100%;
+  height: 50rem;
+  object-fit: contain;
+  margin-top: -5rem;
+  max-width: 40rem;
+}
+
+.contact-section__body form {
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 8rem;
+  width: 100%;
+  max-width: 40rem;
+}
+.contact-section__body form input,
+.contact-section__body form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+.contact-section__body{
+    justify-content: space-evenly;
+}
+.contact-section__body form textarea {
+  max-height: 10rem;
+}
+.contact-section__body form .btn {
+  max-width: 15rem;
+}
+/* end of contact section */
+
+/* footer */
+.footer{
+    background-color: #111010;
+    color: #fff;
+    padding: 8rem 0;
+    padding-top: 3rem;
+}
+.footer-section__head p, .footer-section__head h2{
+    color: #fff;
+    opacity: 100%;
+}
+.footer-section__body p{
+    color: #fff;
+    opacity: 0.6;
+    margin-top: 3rem;
+    text-align: center;
+}
