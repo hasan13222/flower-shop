@@ -68,7 +68,13 @@ h2 {
 a {
   font-size: 2rem;
 }
-
+.btn{
+    transition: opacity .3s;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 /* hero section */
 .hero-section--img img {
   width: 100%;
