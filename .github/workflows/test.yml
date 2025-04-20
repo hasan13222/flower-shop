@@ -1,0 +1,11 @@
+name: test workflow
+on: push
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a message
+        run: echo "hellow from my first github action"
+
+      - name: check linting
+        run: echo "running linting"
